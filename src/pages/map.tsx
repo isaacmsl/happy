@@ -3,7 +3,7 @@ import styles from '../../styles/Map.module.css'
 import Link from 'next/link'
 import { FiPlus } from 'react-icons/fi'
 
-import LeafletMapDynamic from '../components/LeafletMapDynamic'
+import LeafletMap from '../components/LeafletMap'
 
 export default function Map() {
     return (
@@ -35,7 +35,8 @@ export default function Map() {
                 </footer>
             </aside>
 
-            <LeafletMapDynamic />
+            {/* <LeafletMapDynamic /> */}
+            <LeafletMap />
 
             <Link href="">
                 <a className={styles.btnCreateOrphanage}>

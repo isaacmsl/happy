@@ -1,4 +1,4 @@
-import { Map, TileLayer } from 'react-leaflet'
+import { Map, TileLayer } from 'react-leaflet-universal'
 import 'leaflet/dist/leaflet.css'
 
 const LeafletMap = () => (
