@@ -1,0 +1,71 @@
+.mapPage {
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+
+    display: flex;
+}
+
+.mapPage aside {
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    padding: 2em;
+
+    min-width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.mapPage aside header {
+    display: grid;
+    gap: 4em;
+}
+
+.headerText {
+    display: grid;
+    gap: 1em;
+}
+
+.headerText h2 {
+    max-width: 350px;
+    
+    font-size: 2em;
+    font-weight: 900;
+    line-height: 1em;
+}
+
+.mapPage aside strong {
+    font-weight: 800;
+}
+
+.mapPage footer {
+    display: grid;
+    text-align: left;
+}
+
+.btnCreateOrphanage {
+    width: 64px;
+    height: 64px;
+
+    background: #15c3d6;
+    border-radius: 26px;
+
+    display: grid;
+    place-items: center;
+
+    transition: background .2s ease-in-out;
+
+    position: absolute;
+
+    bottom: 44px;
+    right: 44px;
+
+    z-index: 10;
+}
+
+.btnCreateOrphanage:hover {
+    background: #15d6eb;
+}
